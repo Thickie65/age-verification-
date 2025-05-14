@@ -1,0 +1,21 @@
+index.html<!DOCTYPE html>
+<html>
+<head>
+  <title>Age Verification</title>
+</head>
+<body>
+  <h2>Are you 18 or older?</h2>
+  <button onclick="verifyAge(true)">Yes</button>
+  <button onclick="verifyAge(false)">No</button>
+
+  <script>
+    function verifyAge(isOldEnough) {
+      if (isOldEnough) {
+        window.location.href = "https://example.com"; // Replace with your actual content link
+      } else {
+        alert("Sorry, you must be 18 or older to view this content.");
+      }
+    }
+  </script>
+</body>
+</html>
